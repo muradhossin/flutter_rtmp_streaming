@@ -5,7 +5,9 @@ import Flutter
 import FlutterMacOS
 #endif
 import HaishinKit
+#if canImport(RTMPHaishinKit)
 import RTMPHaishinKit
+#endif
 import AVFoundation
 
 public final class HaishinKitPlugin: NSObject,FlutterPlugin {

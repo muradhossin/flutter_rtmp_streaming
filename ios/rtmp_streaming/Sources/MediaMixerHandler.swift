@@ -6,7 +6,9 @@ import Flutter
 import FlutterMacOS
 #endif
 import HaishinKit
+#if canImport(RTMPHaishinKit)
 import RTMPHaishinKit
+#endif
 import AVFoundation
 import VideoToolbox
 #if canImport(UIKit)
